@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ad9c9ee-27a7-4b5a-a86f-94fc71752c8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Prog30.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prog31.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prog3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prog3.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,18 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Prog24.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="13" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Prog25.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -55,7 +44,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Prog27.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-115">
+            <state relative-caret-position="148">
               <caret line="10" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
               <folding>
                 <element signature="e#177#178#0" expanded="true" />
@@ -79,15 +68,42 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Prog30.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
+            <state relative-caret-position="99">
+              <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
               <folding>
                 <element signature="e#121#122#0" expanded="true" />
                 <element signature="e#184#185#0" expanded="true" />
-                <element signature="e#529#558#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Prog31.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#160#161#0" expanded="true" />
+                <element signature="e#214#215#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Prog3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="381">
+              <caret line="212" column="5" lean-forward="true" selection-start-line="212" selection-start-column="5" selection-end-line="212" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2191#2192#0" expanded="true" />
+                <element signature="e#2214#2215#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -129,15 +145,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/String.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="2642" column="18" selection-start-line="2642" selection-start-column="18" selection-end-line="2642" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -163,6 +170,13 @@
       <find>elementsInSet</find>
       <find>lastElementVisited</find>
       <find>merge(int[][]</find>
+      <find>map</find>
+      <find>ans</find>
+      <find>addTwoNumbers</find>
+      <find>next</find>
+      <find>print</find>
+      <find>findMinSubArray</find>
+      <find>copyNode</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -172,7 +186,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Prog1.java" />
-        <option value="$PROJECT_DIR$/src/Prog3.java" />
         <option value="$PROJECT_DIR$/src/Prog4.java" />
         <option value="$PROJECT_DIR$/src/Prog5.java" />
         <option value="$PROJECT_DIR$/src/Prog6.java" />
@@ -205,6 +218,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/Prog29.java" />
         <option value="$PROJECT_DIR$/src/Prog30.java" />
+        <option value="$PROJECT_DIR$/src/Prog31.java" />
+        <option value="$PROJECT_DIR$/src/Prog3.java" />
       </list>
     </option>
   </component>
@@ -240,7 +255,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578933578374" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579023723485" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -254,21 +269,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Prog30">
-    <configuration name="Prog26" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Prog26" />
-      <module name="GeeksForGeeks1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Prog27" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Prog27" />
-      <module name="GeeksForGeeks1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Prog3">
     <configuration name="Prog28" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Prog28" />
       <module name="GeeksForGeeks1" />
@@ -283,6 +284,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Prog3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Prog3" />
+      <module name="GeeksForGeeks1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Prog30" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Prog30" />
       <module name="GeeksForGeeks1" />
@@ -290,13 +298,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Prog31" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Prog31" />
+      <module name="GeeksForGeeks1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Prog3" />
+        <item itemvalue="Application.Prog31" />
         <item itemvalue="Application.Prog30" />
         <item itemvalue="Application.Prog29" />
         <item itemvalue="Application.Prog28" />
-        <item itemvalue="Application.Prog27" />
-        <item itemvalue="Application.Prog26" />
       </list>
     </recent_temporary>
   </component>
@@ -399,16 +414,6 @@
           <folding>
             <element signature="e#1676#1677#0" expanded="true" />
             <element signature="e#1719#1720#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Prog3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="5" column="44" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -702,17 +707,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Prog27.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-115">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Prog28.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
@@ -739,12 +733,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Prog30.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
+        <state relative-caret-position="99">
+          <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
           <folding>
             <element signature="e#121#122#0" expanded="true" />
             <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#529#558#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Prog27.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Prog31.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Prog3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="212" column="5" lean-forward="true" selection-start-line="212" selection-start-column="5" selection-end-line="212" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2191#2192#0" expanded="true" />
+            <element signature="e#2214#2215#0" expanded="true" />
           </folding>
         </state>
       </provider>
