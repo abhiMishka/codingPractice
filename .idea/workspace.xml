@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ad9c9ee-27a7-4b5a-a86f-94fc71752c8a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Prog45.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prog45.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prog46.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prog47.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prog48.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GeeksForGeeks1/BaseTestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GeeksForGeeks1/BaseTestClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BaseTestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BaseTestClass.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,59 +18,125 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Prog43.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="82" selection-start-line="1" selection-start-column="82" selection-end-line="1" selection-end-column="82" />
-              <folding>
-                <element signature="e#1296#1297#0" expanded="true" />
-                <element signature="e#1339#1340#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Prog44.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-              <folding>
-                <element signature="e#541#542#0" expanded="true" />
-                <element signature="e#586#587#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Prog45.java">
+        <entry file="file://$PROJECT_DIR$/src/Prog46.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/List.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="735" column="12" selection-start-line="735" selection-start-column="12" selection-end-line="735" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/PriorityQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="350" column="13" selection-start-line="350" selection-start-column="13" selection-end-line="350" selection-end-column="13" />
+            <state relative-caret-position="241">
+              <caret line="131" selection-start-line="131" selection-end-line="131" />
               <folding>
-                <element signature="e#13143#13144#0" expanded="true" />
-                <element signature="e#13178#13179#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#6412#6413#0" expanded="true" />
+                <element signature="e#6438#6439#0" expanded="true" />
+                <element signature="e#6473#6474#0" expanded="true" />
+                <element signature="e#6503#6504#0" expanded="true" />
+                <element signature="e#6530#6531#0" expanded="true" />
+                <element signature="e#6556#6557#0" expanded="true" />
+                <element signature="e#6591#6592#0" expanded="true" />
+                <element signature="e#6621#6622#0" expanded="true" />
+                <element signature="e#6650#6651#0" expanded="true" />
+                <element signature="e#6677#6678#0" expanded="true" />
+                <element signature="e#6715#6716#0" expanded="true" />
+                <element signature="e#6747#6748#0" expanded="true" />
+                <element signature="e#6776#6777#0" expanded="true" />
+                <element signature="e#6803#6804#0" expanded="true" />
+                <element signature="e#6841#6842#0" expanded="true" />
+                <element signature="e#6873#6874#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Prog48.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1725">
+              <caret line="117" column="53" selection-start-line="117" selection-start-column="53" selection-end-line="117" selection-end-column="53" />
+              <folding>
+                <element signature="e#2717#2718#0" expanded="true" />
+                <element signature="e#2772#2773#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Vector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="480" column="5" lean-forward="true" selection-start-line="480" selection-start-column="5" selection-end-line="480" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Stack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/LinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1290">
+              <caret line="109" column="21" selection-start-line="109" selection-start-column="11" selection-end-line="109" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/ArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2085">
+              <caret line="165" column="11" selection-start-line="165" selection-start-column="11" selection-end-line="165" selection-end-column="11" />
+              <folding>
+                <element signature="e#6336#6337#0" expanded="true" />
+                <element signature="e#6404#6405#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/AbstractList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="735">
+              <caret line="72" column="22" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Queue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2385">
+              <caret line="192" column="6" selection-start-line="192" selection-start-column="6" selection-end-line="192" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BaseTestClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#76#77#0" expanded="true" />
+                <element signature="e#117#118#0" expanded="true" />
+                <element signature="e#166#167#0" expanded="true" />
+                <element signature="e#209#210#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Map.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6000">
+              <caret line="426" column="10" selection-start-line="426" selection-start-column="10" selection-end-line="426" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -82,7 +153,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>pow</find>
       <find>finalNode</find>
       <find>longestValidParentheses</find>
       <find>current</find>
@@ -109,6 +179,10 @@
       <find>nodePriorityQueue</find>
       <find>diffArray</find>
       <find>smallList</find>
+      <find>remove</find>
+      <find>start</find>
+      <find>lruca</find>
+      <find>oldNode</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -117,7 +191,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Prog1.java" />
         <option value="$PROJECT_DIR$/src/Prog4.java" />
         <option value="$PROJECT_DIR$/src/Prog5.java" />
         <option value="$PROJECT_DIR$/src/Prog6.java" />
@@ -152,7 +225,6 @@
         <option value="$PROJECT_DIR$/src/Prog31.java" />
         <option value="$PROJECT_DIR$/src/Prog3.java" />
         <option value="$PROJECT_DIR$/src/Prog32.java" />
-        <option value="$PROJECT_DIR$/src/BaseTestClass.java" />
         <option value="$PROJECT_DIR$/src/Prog33.java" />
         <option value="$PROJECT_DIR$/src/Prog34.java" />
         <option value="$PROJECT_DIR$/src/Prog35.java" />
@@ -166,13 +238,17 @@
         <option value="$PROJECT_DIR$/src/Prog43.java" />
         <option value="$PROJECT_DIR$/src/Prog44.java" />
         <option value="$PROJECT_DIR$/src/Prog45.java" />
+        <option value="$PROJECT_DIR$/src/Prog47.java" />
+        <option value="$PROJECT_DIR$/src/BaseTestClass.java" />
+        <option value="$PROJECT_DIR$/src/Prog48.java" />
+        <option value="$PROJECT_DIR$/src/Prog46.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="804" />
+    <option name="height" value="798" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -180,8 +256,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -198,10 +272,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581530992825" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581851598513" />
     <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RunDashboard">
@@ -216,21 +292,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Prog45">
-    <configuration name="Prog40" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Prog40" />
-      <module name="GeeksForGeeks1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Prog41" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Prog41" />
-      <module name="GeeksForGeeks1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Prog46">
     <configuration name="Prog42" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Prog42" />
       <module name="GeeksForGeeks1" />
@@ -252,13 +314,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Prog46" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Prog46" />
+      <module name="GeeksForGeeks1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Prog48" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Prog48" />
+      <module name="GeeksForGeeks1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Prog46" />
+        <item itemvalue="Application.Prog48" />
         <item itemvalue="Application.Prog45" />
         <item itemvalue="Application.Prog43" />
         <item itemvalue="Application.Prog42" />
-        <item itemvalue="Application.Prog41" />
-        <item itemvalue="Application.Prog40" />
       </list>
     </recent_temporary>
   </component>
@@ -276,28 +352,28 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="801" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="798" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27825466" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28183118" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="CheckStyle" weight="0.32863188" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32299012" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26770538" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39915374" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.35119888" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2877292" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32863188" />
+      <window_info anchor="bottom" id="CheckStyle" order="11" weight="0.32863188" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -328,65 +404,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Prog9.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="16" selection-start-line="10" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Prog10.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Prog11.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="27" selection-start-line="2" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Prog13.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="35" selection-start-line="6" selection-start-column="7" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Prog17.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="14" selection-start-line="3" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Prog16.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Prog12.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Prog21.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Prog22.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -430,20 +447,6 @@
             <element signature="e#159#160#0" expanded="true" />
             <element signature="e#189#190#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Vector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="576" column="29" selection-start-line="576" selection-start-column="29" selection-end-line="576" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -593,17 +596,6 @@
           <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BaseTestClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#76#77#0" expanded="true" />
-            <element signature="e#117#118#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -790,6 +782,116 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Prog47.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="48" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Prog48.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1725">
+          <caret line="117" column="53" selection-start-line="117" selection-start-column="53" selection-end-line="117" selection-end-column="53" />
+          <folding>
+            <element signature="e#2717#2718#0" expanded="true" />
+            <element signature="e#2772#2773#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1290">
+          <caret line="109" column="21" selection-start-line="109" selection-start-column="11" selection-end-line="109" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2085">
+          <caret line="165" column="11" selection-start-line="165" selection-start-column="11" selection-end-line="165" selection-end-column="11" />
+          <folding>
+            <element signature="e#6336#6337#0" expanded="true" />
+            <element signature="e#6404#6405#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/AbstractList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="72" column="22" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2385">
+          <caret line="192" column="6" selection-start-line="192" selection-start-column="6" selection-end-line="192" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BaseTestClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#76#77#0" expanded="true" />
+            <element signature="e#117#118#0" expanded="true" />
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6000">
+          <caret line="426" column="10" selection-start-line="426" selection-start-column="10" selection-end-line="426" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="480" column="5" lean-forward="true" selection-start-line="480" selection-start-column="5" selection-end-line="480" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Prog46.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="131" selection-start-line="131" selection-end-line="131" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6412#6413#0" expanded="true" />
+            <element signature="e#6438#6439#0" expanded="true" />
+            <element signature="e#6473#6474#0" expanded="true" />
+            <element signature="e#6503#6504#0" expanded="true" />
+            <element signature="e#6530#6531#0" expanded="true" />
+            <element signature="e#6556#6557#0" expanded="true" />
+            <element signature="e#6591#6592#0" expanded="true" />
+            <element signature="e#6621#6622#0" expanded="true" />
+            <element signature="e#6650#6651#0" expanded="true" />
+            <element signature="e#6677#6678#0" expanded="true" />
+            <element signature="e#6715#6716#0" expanded="true" />
+            <element signature="e#6747#6748#0" expanded="true" />
+            <element signature="e#6776#6777#0" expanded="true" />
+            <element signature="e#6803#6804#0" expanded="true" />
+            <element signature="e#6841#6842#0" expanded="true" />
+            <element signature="e#6873#6874#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
