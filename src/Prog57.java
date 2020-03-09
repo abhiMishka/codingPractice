@@ -21,4 +21,6 @@ public class Prog57 extends BaseTestClass {
         possiblePaths[i][j] = right+down;
         return possiblePaths[i][j];
     }
+
+
 }
