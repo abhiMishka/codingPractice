@@ -3,6 +3,7 @@
  */
 public class Prog57 extends BaseTestClass {
 
+
     public static void main(String... args){
         println(String.valueOf(uniquePaths(3,2)));
     }

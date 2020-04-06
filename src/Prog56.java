@@ -6,6 +6,7 @@ import java.util.Scanner;
  */
 public class Prog56 extends BaseTestClass {
 
+
     public static void main(String... args) {
 
         Scanner scanner = new Scanner(System.in);
