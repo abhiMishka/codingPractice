@@ -14,13 +14,6 @@ public class Prog68 extends BaseTestClass {
     }
 
     public static void rotate(int[] nums, int k) {
-//        while (k-- >0) {
-//            for (int i = nums.length - 1; i >= 1; i--) {
-//                nums[i] = nums[i] ^ nums[i - 1];
-//                nums[i - 1] = nums[i] ^ nums[i - 1];
-//                nums[i] = nums[i] ^ nums[i - 1];
-//            }
-//        }
 
         if(nums.length == 0) return;
 
