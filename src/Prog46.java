@@ -1,7 +1,4 @@
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 //Design and implement a data structure for Least Recently Used (LRU) cache. It should support the following operations: get and put.
 //
@@ -29,234 +26,73 @@ import java.util.Set;
 public class Prog46 extends BaseTestClass {
 
     public static void main(String... args) {
-        LRUCache cache = new LRUCache(3 /* capacity */);
+        LRUCache cache = new LRUCache(2 /* capacity */);
 
-        cache.put(1, 1);
+        cache.put(2, 1);
         cache.put(2, 2);
-        cache.put(3, 3);
-        cache.put(2, 22);
+        println("get : "+cache.get(2) );
+        cache.put(1, 1);
+        cache.put(4, 1);
+        println("get : "+cache.get(2) );
 
-
-        printEverything(cache);
-
+//        cache.put(3, 3);
+//        cache.put(4, 22);
+//
+//        println("get : "+cache.get(1) );
+//        println("get : "+cache.get(3) );
+//        cache.put(2, 22);
+//        println("get : "+cache.get(4) );
+//
 //        cache.put(4, 1);
 //        cache.get(1);
 //        cache.get(2);
     }
 
-    private static void printEverything(LRUCache cache) {
-        Set<Map.Entry<Integer, Node>> set = cache.lruMap.entrySet();
-        Iterator<Map.Entry<Integer, Node>> iterator = (set.iterator());
-        while (iterator.hasNext()) {
-            Map.Entry<Integer, Node> nodeMap = iterator.next();
-            Node node = nodeMap.getValue();
-//            print("key : " + node.getKey() + "    node :" + node.toString());
-            print("key : " + nodeMap.getKey() + "    value:" + node.val
-                    + "    next:" + (node.next == null ? "null" : String.valueOf(node.next.val))
-                    + "    prev:" + (node.prev == null ? "null" : String.valueOf(node.prev.val)));
-            print("\n");
-        }
-    }
 
 }
 
 class LRUCache {
 
-    HashMap<Integer, Node> lruMap;
+    HashMap<Integer, Integer> lruMap;
+    Deque<Integer> integerDeque;
     int capacity;
-    Node head;
-    Node start;
 
     public LRUCache(int capacity) {
         lruMap = new HashMap<>(capacity);
         this.capacity = capacity;
+        integerDeque = new LinkedList<>();
     }
 
     public int get(int key) {
-        int val = lruMap.get(key).getVal();
-        removeNodeAndAddToHead(lruMap.get(key), head, start, val);
+        int val = lruMap.getOrDefault(key,-1);
+        if(val!=-1){
+            removeNodeAndAddToHead((key));
+        }
         return val;
     }
 
-    /**
-     * {
-     * <p>
-     * if (oldNode == start) {
-     * Node tmpStart = start.next;
-     * if (start.next == null) {
-     * start = nodeToAdd;
-     * } else {
-     * lruMap.remove(start.key);
-     * tmpStart.prev = null;
-     * start = tmpStart;
-     * }
-     * } else if (oldNode == head) {
-     * Node tmpHead = head.prev;
-     * head.prev = null;
-     * tmpHead.next = null;
-     * head = tmpHead;
-     * }
-     * <p>
-     * nodeToAdd.prev = head;
-     * head.next = nodeToAdd;
-     * head = head.next;
-     * lruMap.put(key, nodeToAdd);
-     * }
-     *
-     * @param key
-     * @param value
-     */
+    private void removeNodeAndAddToHead(int value) {
+        integerDeque.remove(value);
+        integerDeque.addFirst(value);
+    }
+
 
     public void put(int key, int value) {
         if (lruMap.containsKey(key)) {
-            Node oldNode = lruMap.get(key);
-            Node nodeToAdd = new Node(value, null, null, key);
-
-            lruMap.remove(key);
-
-            if (oldNode == start) {
-                Node tmpStart = start.next;
-                if (start.next == null) {
-                    start = nodeToAdd;
-                } else {
-                    tmpStart.prev = null;
-                    start = tmpStart;
-                }
-            } else if (oldNode == head) {
-                Node tmpHead = head.prev;
-                head.prev = null;
-                tmpHead.next = null;
-                head = tmpHead;
-            }else{
+            integerDeque.remove(key);
+            lruMap.put(key,value);
+            integerDeque.addFirst(key);
+        }else{
+            if(capacity==lruMap.size()){
+                lruMap.remove((integerDeque.getLast()));
+                integerDeque.removeLast();
 
             }
-
-            nodeToAdd.prev = head;
-            head.next = nodeToAdd;
-            head = head.next;
-            lruMap.put(key, nodeToAdd);
-
-
-            removeNodeAndAddToHead(oldNode, head, start, value);
-        } else {
-            if (lruMap.size() >= capacity) {
-                Node nodeToAdd = new Node(value, null, null, key);
-
-                lruMap.remove(start.key);
-                //code to remove startNode and add newNode as start
-                Node tmpStart = start.next;
-                if (start.next == null) {
-                    start = nodeToAdd;
-                } else {
-                    tmpStart.prev = null;
-                    start = tmpStart;
-                }
-
-
-                if(capacity!=1) {
-                    nodeToAdd.prev = head;
-                }
-                head.next = nodeToAdd;
-                head = head.next;
-                lruMap.put(key, nodeToAdd);
-
-
-
-            } else {
-                Node node = new Node(value, null, null, key);
-                if (head == null) {
-                    head = node;
-                    start = head;
-                } else {
-                    node.prev = head;
-                    head.next = node;
-                    head = head.next;
-                }
-                lruMap.put(key, node);
-            }
-        }
-    }
-
-    private Node addNodeToHead(Node node, Node head, Node start) {
-        if (head == null) {
-            head = node;
-            start = head;
-        } else {
-            node.prev = head;
-            head.next = node;
-            head = head.next;
-        }
-
-        return node;
-    }
-
-    private void removeFirstNodeAndAddNew(Node node, Node head, Node start, int value) {
-
-    }
-
-
-    public void removeNodeAndAddToHead(Node nodeToRemove, Node head, Node start, int value) {
-        if (nodeToRemove == head) {
-
-        } else if (nodeToRemove == start) {
-
-        } else {
-
+            lruMap.put(key,value);
+            integerDeque.addFirst(key);
         }
     }
 
 
 }
 
-class Node {
-    int val;
-    int key;
-    public Node prev;
-    public Node next;
-
-    public Node(int val, Node prev, Node next, int key) {
-        this.val = val;
-        this.setPrev(prev);
-        this.setNext(next);
-        this.key = key;
-    }
-
-    public int getKey() {
-        return key;
-    }
-
-    public void setKey(int key) {
-        this.key = key;
-    }
-
-    public int getVal() {
-        return val;
-    }
-
-    public void setVal(int val) {
-        this.val = val;
-    }
-
-    public Node getPrev() {
-        return prev;
-    }
-
-    public void setPrev(Node prev) {
-        this.prev = prev;
-    }
-
-    public Node getNext() {
-        return next;
-    }
-
-    public void setNext(Node next) {
-        this.next = next;
-    }
-
-    @Override
-    public String toString() {
-        return "Node{" +
-                "val=" + val +
-                '}';
-    }
-}

@@ -4,24 +4,24 @@ public class Prog80 {
 
     public static void main(String... args) {
 
-      boolean ans  =  checkParanthesis("()()[]{}");
-      System.out.println("ans : " +ans);
+        boolean ans = checkParanthesis("()()[]{}");
+        System.out.println("ans : " + ans);
 
-        ans  =  checkParanthesis("()()[]{}");
-        System.out.println("ans : " +ans);
+        ans = checkParanthesis("()()[]{}");
+        System.out.println("ans : " + ans);
 
         ans = checkParanthesis("(()()[]{}");
-        System.out.println("ans : " +ans);
+        System.out.println("ans : " + ans);
 
         ans = checkParanthesis("(()())[]{}");
-        System.out.println("ans : " +ans);
+        System.out.println("ans : " + ans);
 
     }
 
     public static boolean checkParanthesis(String s) {
 
-        if(s==null) return false;
-        if(s.isEmpty() || s.length()==1) return false;
+        if (s == null) return false;
+        if (s.isEmpty() || s.length() == 1) return false;
 
         Stack<Character> stack = new Stack<>();
 
@@ -35,7 +35,7 @@ public class Prog80 {
                     stack.pop();
                 } else if (c == ']' && stack.peek() == '[') {
                     stack.pop();
-                } else if (c == '}' && stack.peek() == '{') {
+                } else if (stack.peek() == '{') {
                     stack.pop();
                 } else {
                     return false;

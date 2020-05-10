@@ -2,18 +2,10 @@ public class Prog81 {
 
     public static void main(String... args) {
 
-        int ans = findNthPrime(99);
-
-        System.out.println("ans = "+ans);
-
-        ans = findNthPrime(3);
-        System.out.println("ans = "+ans);
-
-        ans = findNthPrime(4);
-        System.out.println("ans = "+ans);
-
-        ans = findNthPrime(5);
-        System.out.println("ans = "+ans);
+        for (int i = 0; i < 10; i++) {
+            int ans = findNthPrime(i);
+            System.out.println(i +" = "+ans);
+        }
     }
 
     public static int findNthPrime(int n){
@@ -28,7 +20,7 @@ public class Prog81 {
 
            for(int i = 4;i<Integer.MAX_VALUE;i++){
                isDivisible = false;
-                for(int j = 2;j<=i/2;j++){
+                for(int j = 2;j<=Math.sqrt(i);j++){
                     if(i%j==0){
                         isDivisible = true;
                         break;

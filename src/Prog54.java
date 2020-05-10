@@ -10,6 +10,7 @@ public class Prog54 extends BaseTestClass {
 
     public List<String> binaryTreePaths(Prog44.TreeNode root) {
         Queue<String> queue = new LinkedList<>();
+
         ArrayList<String> answer = new ArrayList<>();
         preOrder(root,queue,new ArrayList<>());
         return answer;
